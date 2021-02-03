@@ -1,4 +1,4 @@
-# python_data_project
+# Data Pipeline Project (Python)
 
 This section includes some python data automation code.
 

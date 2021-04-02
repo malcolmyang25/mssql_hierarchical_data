@@ -1,5 +1,6 @@
 # Hierarchical Data (SQL Server)
-
+---
+[Click to view code](https://github.com/malcolmyang25/mssql_hierarchy_data/blob/main/Hierarchy%20Structure%20Data%20Explore.sql)\
 Hierarchical data is defined as a set of data items that are related to each other by hierarchical relationships. Hierarchical relationships exist where one item of data is the parent of another item.
 
 In this documents, I list four ways to query hierarchical data.

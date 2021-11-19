@@ -7,7 +7,9 @@ In this documents, I list four ways to query hierarchical data.
 
 To illustrate this hierarchical data process methods, the sample is about sum up the invoice of the two marketing team. George is the head of marketing, Lee and Mary are two directors, each of them leads a sales team.
 
-The source table lists all invoice for both team. Each invoice needs to sign by higher level manager, i.e. if manager pay this invoice, then senior manager need to sign before the manager pay. All invoices are listed by transaction.
+The source table lists all invoice for both team. Each invoice needs to sign by higher level manager, i.e. if manager pay this invoice, then senior manager need to sign before the manager pay. Only the head can sign the invoice by themselft.
+
+All invoices are listed by transaction. The business requirement is **listing the total invoice amount by the head**.
 
 ---
 Source Table: 
